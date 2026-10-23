@@ -24,10 +24,11 @@ To uninstall, go to Windows Settings > Apps > Installed apps. Your meeting notes
 
 ## What it does
 
-- **Notices meetings.** It runs in the system tray and starts with Windows. When a Teams, Zoom or Google Meet call starts (Meet in Chrome, Edge or Meet's installed app), a card in the corner of the screen offers to take notes. You can also start notes yourself at any time, for an in-person meeting, say.
+- **Notices meetings.** It runs in the system tray and starts with Windows. When a Teams, Zoom or Google Meet call starts, a card in the corner of the screen offers to take notes. It works with the desktop apps, and with all three in a browser. You can also start notes yourself at any time, for an in-person meeting, say.
+- **Keeps going until the meeting ends.** It never pauses or stops by itself: not when its window is minimised, not through long silences, and not in meetings of two hours or more.
 - **Transcribes both sides.** Your microphone is your side, and what your PC plays is everyone else. Headphones aren't needed: what your speakers play is kept out of your lines.
 - **Tells speakers apart and names them.** Voices are numbered Speaker 1, Speaker 2 and so on. With the meeting's live captions on, it reads the names the meeting app shows and puts them on the voices. You can also click a speaker to name them yourself.
-- **Saves clear notes.** When the meeting ends, the transcript is saved as a Markdown (.md) file named by its date and time. After your first meeting it asks where to save, suggesting `Documents\Meeting Notes`. From then on, every meeting is saved there automatically.
+- **Saves clear notes.** When the call ends, a card asks whether to save the notes, showing the folder. Click **Save**, or **Change folder…** to save somewhere else. It keeps listening until you answer, in case you're still in the meeting. Each meeting is a Markdown (.md) file named by its date and time; the first suggested folder is `Documents\Meeting Notes`.
 - **Pause, resume and look back.** Pause and resume a meeting, and read and search every saved meeting in the app.
 
 ## Getting names from captions
@@ -73,7 +74,7 @@ The details at the top let note apps such as Obsidian, and Windows search, find 
 
 - Windows 10 or 11, 64-bit.
 - About 1.3 GB of disk space.
-- Speech runs on an NVIDIA graphics card (RTX 20-series or newer, with a current driver) when there is one. Otherwise it runs on the processor, still faster than real time on a modern PC.
+- Speech runs on an NVIDIA graphics card (RTX 20-series or newer, with a current driver) when there is one. Otherwise it runs on the processor: in testing, two cores of a modern laptop processor kept up with voices told apart. On a slower PC, the others are labelled "Others" so the transcript keeps up.
 
 ## Licences
 
