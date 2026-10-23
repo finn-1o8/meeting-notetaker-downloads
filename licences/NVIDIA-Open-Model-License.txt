@@ -1,5 +1,5 @@
 Copy of the NVIDIA Open Model License Agreement, which governs the Nemotron Speech Streaming English model
-bundled with Local Transcription. Taken from
+bundled with Local Notetaker. Taken from
 https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-license/ on 2026-10-23;
 its numbered sections appear here as list items. The linked page is the authoritative version.
 

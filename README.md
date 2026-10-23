@@ -1,24 +1,26 @@
 <img src="icon.png" alt="" width="88" align="right">
 
-# Local Transcription
+# Local Notetaker
 
-A meeting notetaker for Windows that runs entirely on your PC. It was called Meeting Notetaker before version 1.3.0. When a Microsoft Teams, Google Meet or Zoom meeting starts, it offers to take notes. It transcribes the meeting with NVIDIA Nemotron, tells the voices apart, puts people's names on them from the meeting's live captions, and saves a clear Markdown transcript when the meeting ends.
+A meeting notetaker for Windows that runs entirely on your PC. It was called Local Transcription in versions 1.3 and 1.4, and Meeting Notetaker before that. When a Microsoft Teams, Google Meet or Zoom meeting starts, it offers to take notes. It transcribes the meeting with NVIDIA Nemotron, tells the voices apart, puts people's names on them from the meeting's live captions, and saves a clear Markdown transcript when the meeting ends.
 
-No audio or text leaves your PC. There's no account and no subscription.
+No audio or text leaves your PC. There's no account and no subscription. See the [privacy policy](PRIVACY.md).
 
-### [Download Local Transcription for Windows](https://github.com/finn-1o8/meeting-notetaker-downloads/releases/latest)
+### [Download Local Notetaker for Windows](https://github.com/finn-1o8/meeting-notetaker-downloads/releases/latest)
 
 Windows 10 or 11, 64-bit. The installer is about 1 GB because the speech models are inside it.
 
-![Local Transcription taking notes in a Google Meet meeting, with people named from the meeting's captions](screenshot.png)
+![Local Notetaker taking notes in a Microsoft Teams meeting](screenshot.png)
 
 ## Install
 
-1. Open the [latest release](https://github.com/finn-1o8/meeting-notetaker-downloads/releases/latest) and, under **Assets**, download `Local-Transcription-Setup-<version>.exe`.
+1. Open the [latest release](https://github.com/finn-1o8/meeting-notetaker-downloads/releases/latest) and, under **Assets**, download `Local-Notetaker-Setup-<version>.exe`.
 2. Run it. Windows may say "Windows protected your PC", because the installer isn't code-signed yet. Click **More info**, then **Run anyway**.
 3. Pick where to install. Your user folder is the default, and no administrator rights are needed. The installer adds Start menu and desktop shortcuts, then opens the app.
 
-If you have Meeting Notetaker installed, the installer updates it in place, keeping your settings, notes and shortcuts.
+If Smart App Control is on, Windows blocks the installer and offers no way to run it. A Microsoft Store version, which Windows allows, is on its way.
+
+If you have Local Transcription or Meeting Notetaker installed, the installer updates it in place, keeping your settings, notes and shortcuts.
 
 To uninstall, go to Windows Settings > Apps > Installed apps. Your meeting notes and settings are kept.
 
@@ -78,7 +80,7 @@ The details at the top let note apps such as Obsidian, and Windows search, find 
 
 ## Licences
 
-Local Transcription © 2026 finn-1o8. It includes these components, which keep their own licences:
+Local Notetaker © 2026 finn-1o8. It includes these components, which keep their own licences:
 
 - **NVIDIA Nemotron Speech Streaming English 0.6B**, the speech recognition model. Licensed by NVIDIA Corporation under the NVIDIA Open Model License.
 - **NVIDIA Nemotron 3 Diarization**, the model that tells speakers apart, under the OpenMDW License Agreement 1.1.
