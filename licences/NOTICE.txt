@@ -1,7 +1,7 @@
-Meeting Notetaker
+Local Transcription
 Copyright (c) 2026 finn-1o8
 
-Meeting Notetaker includes the following third-party components, which keep their own licences.
+Local Transcription includes the following third-party components, which keep their own licences.
 
 1. NVIDIA Nemotron Speech Streaming English 0.6B
    (nemotron-speech-streaming-en-0.6b.q8_0.gguf), the speech recognition model.
@@ -25,4 +25,4 @@ Meeting Notetaker includes the following third-party components, which keep thei
 
 5. Electron and Chromium: see LICENSE.electron.txt and LICENSES.chromium.html in the app's folder.
 
-The models and the engine run on your PC. Meeting Notetaker sends no audio or text anywhere.
+The models and the engine run on your PC. Local Transcription sends no audio or text anywhere.
