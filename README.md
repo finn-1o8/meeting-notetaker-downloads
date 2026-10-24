@@ -6,23 +6,33 @@ A meeting notetaker for Windows that runs entirely on your PC. It was called Loc
 
 No audio or text leaves your PC. There's no account and no subscription. See the [privacy policy](PRIVACY.md).
 
-### [Download Local Notetaker for Windows](https://github.com/finn-1o8/meeting-notetaker-downloads/releases/latest)
+<a href="https://apps.microsoft.com/detail/9MVZJZJ92M9D"><img src="https://get.microsoft.com/images/en-us%20dark.svg" alt="Get it from Microsoft" width="200"></a>
 
-Windows 10 or 11, 64-bit. The installer is about 1 GB because the speech models are inside it.
+Windows 10 or 11, 64-bit. Get it from the Microsoft Store, or [download the installer](https://github.com/finn-1o8/meeting-notetaker-downloads/releases/latest). Either way it's about 1 GB, because the speech models are inside it.
 
 ![Local Notetaker taking notes in a Microsoft Teams meeting](screenshot.png)
 
 ## Install
 
+### From the Microsoft Store (recommended)
+
+Open [Local Notetaker in the Microsoft Store](https://apps.microsoft.com/detail/9MVZJZJ92M9D) and click **Get**. Windows installs it without any warnings, even with Smart App Control on, and the Store keeps it up to date.
+
+### With the installer
+
 1. Open the [latest release](https://github.com/finn-1o8/meeting-notetaker-downloads/releases/latest) and, under **Assets**, download `Local-Notetaker-Setup-<version>.exe`.
-2. Run it. Windows may say "Windows protected your PC", because the installer isn't code-signed yet. Click **More info**, then **Run anyway**.
+2. Run it. Windows may say "Windows protected your PC", because the installer isn't code-signed. Click **More info**, then **Run anyway**.
 3. Pick where to install. Your user folder is the default, and no administrator rights are needed. The installer adds Start menu and desktop shortcuts, then opens the app.
 
-If Smart App Control is on, Windows blocks the installer and offers no way to run it. A Microsoft Store version, which Windows allows, is on its way.
+If Smart App Control is on, Windows blocks the installer and offers no way to run it. Install from the Microsoft Store instead.
 
 If you have Local Transcription or Meeting Notetaker installed, the installer updates it in place, keeping your settings, notes and shortcuts.
 
-To uninstall, go to Windows Settings > Apps > Installed apps. Your meeting notes and settings are kept.
+### Keep one copy
+
+Use the Store version or the installer's, not both: two copies would both watch for meetings. To switch to the Store version, first uninstall the installer's copy in Windows Settings > Apps > Installed apps. Your settings and notes are kept, and the Store version picks them up.
+
+To uninstall either version, go to Windows Settings > Apps > Installed apps. Your meeting notes are kept.
 
 ## What it does
 
